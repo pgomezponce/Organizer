@@ -1,0 +1,30 @@
+{
+	"folders": {},
+	"connections": {
+		"mariaDB-18562ce355f-6ef9d25fcaf7f699": {
+			"provider": "mysql",
+			"driver": "mariaDB",
+			"name": "192.168.1.99",
+			"save-password": true,
+			"configuration": {
+				"host": "192.168.1.99",
+				"port": "3306",
+				"url": "jdbc:mariadb://192.168.1.99:3306/",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}
